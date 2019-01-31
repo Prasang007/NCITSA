@@ -1848,6 +1848,7 @@ ul.sidebar-gallery {
   padding-bottom: 30px;
   color: #fff;
   background: #000;
+  bottom: 0;
 }
 
 #footer a {
