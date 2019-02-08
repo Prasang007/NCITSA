@@ -1944,8 +1944,7 @@ ul.sidebar-gallery {
 
 .banner div .ICITDA{
     width: 18%;
-  
-
+    margin-right: 120px;
 }
 .banner div .ACM{
     width: 32%;
@@ -1964,7 +1963,8 @@ ul.sidebar-gallery {
 }
 .imgb{
   width: 21%;
-
+  margin-right: 120px;
+  margin-left: 85px;
 }
 .banner h1{
   color: #064f8c;
@@ -2066,7 +2066,7 @@ color: yellow;
 	justify-content: center;
 }
 .association-partners{
-	margin-left: 0;
+	margin-left: 10px;
 }
 @media only screen and (max-width:425px ){
 
