@@ -135,11 +135,6 @@ body > section {
   text-align: justify;
 
 }
-@media only screen and (max-width:768px ){
-  .lead{
-    
-  }
-}
 
 .transparent-bg {
   background-color: transparent !important;
@@ -270,6 +265,9 @@ ul.social-share li a:hover {
 	.navbar-inverse .navbar-nav > li > a {
 		font-size: 1vw;	
 	}
+  .conference-img{
+    text-align: center;
+  }
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
@@ -1849,7 +1847,6 @@ ul.sidebar-gallery {
   padding-bottom: 30px;
   color: #fff;
   background: #000;
-  bottom: 0;
 }
 
 #footer a {
@@ -1976,6 +1973,11 @@ ul.sidebar-gallery {
   margin: 0;
 }
 
+/*Right Border*/
+.bord{
+  border-right: 1px solid #0D449C;
+}
+
 @media only screen and (max-width:768px ){
   .banner{
     flex-direction: column;
@@ -1993,10 +1995,9 @@ ul.sidebar-gallery {
   .conference-name h1 , h3{
     margin: 2px;
   }
-  .association{
-    /*display: inline-flex !important;*/
+  .conference-img{
+    text-align: center;
   }
-
 
 }
 
@@ -2066,17 +2067,15 @@ ul.sidebar-gallery {
   }
   .Association{
    display: flex;
-   align-items: center;
-   justify-content: center;
- }
- .association-partners{
-   margin-left: 10px;
+   justify-content: space-around;
  }
  @media only screen and (max-width:425px ){
-
+  .bord{
+  border-right: none;
+}
   .association-partners{
-   justify-content: space-around;
-   margin: 0 0 25px 35px !important;
+    margin-bottom: 20px;
+    text-align: center;
  }	
  .sponsors{
   width: auto;
