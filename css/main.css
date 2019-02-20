@@ -268,6 +268,24 @@ ul.social-share li a:hover {
   .conference-img{
     text-align: center;
   }
+  .banner div .ICITDA{
+  width: 20% !important;
+  margin-left: 0 !important;
+}
+.imgb{
+  width: 20%;
+  margin-right: 0;
+  margin-left: 0;
+}
+.banner div .JECRC{
+  width: 20%;
+  margin-left: 0 !important;
+
+}
+.ACM{
+	width: 20%;
+	float: none !important;
+}
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
@@ -1942,30 +1960,28 @@ ul.sidebar-gallery {
   border-right: 1px solid #888888;  
   background-color: #fbfbfb;
 }
+div .organised{
+  justify-content: space-between !important;
+}
 
 .banner div .ICITDA{
   width: 18%;
-  margin-right: 120px;
+  margin-left: 79px;
 }
 .banner div .ACM{
-  width: 32%;
-  
-
+  width: 16%;
+  float: right;
 }
 .banner div .CSI{
   width: 12%;
-  
-
 }
 .banner div .JECRC {
   width: 20%;
+  margin-left: 79px;
   height: 20%;
-
 }
 .imgb{
   width: 21%;
-  margin-right: 120px;
-  margin-left: 85px;
 }
 .banner h1{
   color: #064f8c;
@@ -2001,6 +2017,24 @@ ul.sidebar-gallery {
   .conference-img{
     text-align: center;
   }
+  .banner div .ICITDA{
+  width: 20%;
+  margin-left: 0;
+}
+.imgb{
+  width: 20%;
+  margin-right: 0;
+  margin-left: 0;
+}
+.banner div .JECRC{
+  width: 20%;
+  margin-left: 0 !important;
+
+}
+.ACM{
+	width: 20%;
+	float: none !important;
+}
 
 }
 
@@ -2087,20 +2121,22 @@ ul.sidebar-gallery {
   display: list-item !important;
 }
 .banner div .ICITDA{
-  width: 40%;
-  float: right;
-  margin-right: 0;
+  width: 20%;
+  margin-left: 0;
 }
 .imgb{
-  width: 40%;
+  width: 20%;
   margin-right: 0;
   margin-left: 0;
 }
 .banner div .JECRC{
-  width: 40%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+  width: 20%;
+  margin-left: 0 !important;
+
+}
+.ACM{
+	width: 20%;
+	float: none !important;
 }
 }
 
